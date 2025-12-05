@@ -64,3 +64,31 @@ Ecart thrombones store
                  | Global Exception Handler    |
                  |  (@ControllerAdvice)        |
                  +-----------------------------+
+```
+## 3-Tier Architecture diagram
+```text
+                    +------------------------------+
+                    |        Presentation Tier     |
+                    |------------------------------|
+                    |  controller/                 |
+                    |  request / response DTOs     |
+                    +------------------------------+
+                                 │
+                                 ▼
+                    +------------------------------+
+                    |         Business Tier        |
+                    |------------------------------|
+                    |  service/                    |
+                    |  process/                    |
+                    |  common/bean/model           |
+                    +------------------------------+
+                                 │
+                                 ▼
+                    +------------------------------+
+                    |        Data Access Tier      |
+                    |------------------------------|
+                    |  repository/                 |
+                    |  entity/                     |
+                    |  database (MySQL/Redis/etc.) |
+                    +------------------------------+
+```
