@@ -1,5 +1,5 @@
 -- MySQL dump 10.13  Distrib 8.0.44, for Linux (x86_64)
----
+--
 -- Host: localhost    Database: db_cart
 -- ------------------------------------------------------
 -- Server version	8.0.44-0ubuntu0.24.04.1
